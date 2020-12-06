@@ -11,7 +11,10 @@ DEBUG = True
 FLATPAGES_AUTO_RELOAD = DEBUG
 FLATPAGES_EXTENSION = '.md'
 FREEZER_DESTINATION = 'docs'
+
+# bootstrap-flask flags
 BOOTSTRAP_BOOTSWATCH_THEME = 'lux'
+BOOTSTRAP_SERVE_LOCAL = True
 
 app = Flask(__name__)
 app.config.from_object(__name__)
