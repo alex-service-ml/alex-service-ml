@@ -4,14 +4,18 @@ import argparse
 from flask import Flask, render_template, url_for
 from flask_flatpages import FlatPages
 from flask_frozen import Freezer
+from flask_bootstrap import Bootstrap
 
 DEBUG = True
+# Various config flags
 FLATPAGES_AUTO_RELOAD = DEBUG
 FLATPAGES_EXTENSION = '.md'
 FREEZER_DESTINATION = 'docs'
+BOOTSTRAP_BOOTSWATCH_THEME = 'lux'
 
 app = Flask(__name__)
 app.config.from_object(__name__)
+bootstrap = Bootstrap(app)
 pages = FlatPages(app)
 freezer = Freezer(app)
 

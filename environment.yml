@@ -11,4 +11,4 @@ dependencies:
   - pip
   - pip:
     - flask-flatpages
-#    - 
+    - bootstrap-flask
