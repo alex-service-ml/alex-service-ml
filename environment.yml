@@ -1,0 +1,14 @@
+name: blog
+
+channels:
+  - defaults
+  - conda-forge
+
+dependencies:
+  - python>=3.7
+  - flask
+  - frozen-flask
+  - pip
+  - pip:
+    - flask-flatpages
+#    - 
