@@ -6,3 +6,6 @@ build:
 	$(CONDA_ACTIVATE) ; which python
 	printf "$(DOMAIN_NAME)" > docs/CNAME
 	# $(CONDA_ACTIVATE) ; python sitebuilder.py --build
+
+serve:
+	$(CONDA_ACTIVATE) ; python sitebuilder.py 
