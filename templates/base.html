@@ -13,18 +13,19 @@
 </head>
 <body>
   <header>
-    <div>
-      <a href="{{ url_for('index') }}">Home</a>
-      <a href="#">Resume</a>
-      <a href="#">Contact</a>
-      <a href="#">Study Log</a>
-    </div>
-    <h1> Prediction Service [Header Placeholder]</h1>
+    <h1> WELCOME TO MY SITE</h1>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <a class="navbar-brand" href="{{ url_for('index') }}">Home</a>
+      <a class="navbar-brand" href="#">Resume</a>
+      <a class="navbar-brand" href="#">Study Log</a>
+      <a class="navbar-brand" href="#">Contact</a>
+    </nav>
   </header>
 
-  {% block content %}
-
-  {% endblock %}
+  <div class="container">
+    {% block content %}
+    {% endblock %}
+  </div>
   
   {% block scripts %}
     {{ bootstrap.load_js() }}

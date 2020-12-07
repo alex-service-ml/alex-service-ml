@@ -1,4 +1,4 @@
-title: Test Blog
+title: How I Learned to Stop Worrying and Embrace My Inner Demons, Fuck Yeah wee
 date: 2020-06-12
 category: test
 
