@@ -3,14 +3,6 @@ date: 2020-12-07
 category: resume
 
 
-<style>
-h2 {color: #00ab44}
-strong {
-font-weight: 800; 
-color: #666666;
-}
-</style>
-
 <font size="6" color="#00ab44">Alex Service</font>  | @predictwith.us
 ------------- | -------------
 Machine Learning Engineer | Dayton, OH  
