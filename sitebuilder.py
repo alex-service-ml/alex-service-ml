@@ -11,6 +11,8 @@ DEBUG = True
 # Various config flags
 FLATPAGES_AUTO_RELOAD = DEBUG
 FLATPAGES_EXTENSION = '.md'
+FLATPAGES_MARKDOWN_EXTENSIONS = ['tables', 'codehilite']
+FLATPAGES_EXTENSION_CONFIGS = { 'codehilite': [], 'tables': []  }
 FREEZER_DESTINATION = 'docs'
 
 # bootstrap-flask flags
