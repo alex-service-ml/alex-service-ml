@@ -8,6 +8,7 @@ dependencies:
   - python>=3.7
   - flask
   - frozen-flask
+  - pygments
   - pip
   - pip:
     - flask-flatpages
