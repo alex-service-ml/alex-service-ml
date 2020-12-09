@@ -57,7 +57,7 @@ def build_site():
     for pagename in os.listdir(FREEZER_DESTINATION):
         if pagename.endswith('.html'):
             with open(os.path.join(FREEZER_DESTINATION, pagename)) as f:
-                contents = f.read().replace('/bootstrap/static/', '/alex-service-ml/bootstrap/static/')
+                contents = f.read().replace('/bootstrap/static/', 'alex-service-ml/bootstrap/static/')
             with open(os.path.join(FREEZER_DESTINATION, pagename), 'w') as f:
                 f.write(contents)
 
