@@ -27,7 +27,7 @@ def parse_args():
 if __name__ == '__main__':
   # what a complex snippet
   args = parse_args()
-  print(blah(args.max_value))
+  print(blah(args.max))
 ```
 
 
