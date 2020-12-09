@@ -64,7 +64,8 @@ def build_site():
 if __name__ == '__main__':
     args = parse_args()
     if args.build:
-        build_site()
+        freezer.freeze()
+        # build_site()
     else:
         app.run(host='0.0.0.0', port=5000)
 
