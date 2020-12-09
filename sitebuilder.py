@@ -30,6 +30,10 @@ freezer = Freezer(app)
 def index():
     return render_template('index.html', pages=pages)
 
+@app.route('/resume.html')
+def resume():
+    return page('resume')
+
 
 @app.route('/<path:path>.html')
 def page(path):
