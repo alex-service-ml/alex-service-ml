@@ -9,6 +9,7 @@ dependencies:
   - flask
   - frozen-flask
   - pygments
+  - markdown-checklist
   - pip
   - pip:
     - flask-flatpages

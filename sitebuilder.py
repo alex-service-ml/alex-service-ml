@@ -6,12 +6,13 @@ from flask import Flask, render_template, url_for
 from flask_flatpages import FlatPages
 from flask_frozen import Freezer
 from flask_bootstrap import Bootstrap
+from markdown_checklist.extension import ChecklistExtension
 
 DEBUG = True
 # Various config flags
 FLATPAGES_AUTO_RELOAD = DEBUG
 FLATPAGES_EXTENSION = '.md'
-FLATPAGES_MARKDOWN_EXTENSIONS = ['tables', 'codehilite', 'fenced_code']
+FLATPAGES_MARKDOWN_EXTENSIONS = ['tables', 'codehilite', 'fenced_code', ChecklistExtension()]
 FLATPAGES_EXTENSION_CONFIGS = { 'codehilite': {'use_pygments': True}, 'tables': [], 'fenced_code': []  }
 FREEZER_DESTINATION = 'docs'
 
