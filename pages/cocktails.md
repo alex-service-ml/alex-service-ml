@@ -16,7 +16,7 @@ long as that booze could be crafted by a London hotel barman in 1930).
 
 ## Cocktail #1: The Addington Cocktail  
 
-<img src="../static/images/addington.png" alt="Addington Cocktail"/>  
+![Addington Cocktail](../static/images/addington.png)
 
 *Figure 1: The Addington Cocktail*
 
@@ -46,7 +46,7 @@ forgotten to replace the empty syrup bag.
 I much preferred my first try, where I skipped the soda all together and had a lovely sweet & tangy pairing with the 
 pompano fish my wife had baked. 
 
-<img src="../static/images/addington_no_soda.png" alt="Pompano fish and Addington cocktail with no soda" />  
+![Pompano fish and Addington cocktail with no soda](../static/images/addington_no_soda.png)
 
 *Figure 2: A delicious lemon rosemary pompano with roasted garlic broccoli and, of course, the Addington cocktail (minus club soda)*
 
