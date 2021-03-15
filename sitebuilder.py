@@ -29,7 +29,9 @@ freezer = Freezer(app)
 
 @app.route('/')
 def index():
-    return render_template('index.html', pages=pages)
+    articles = filter(lambda x: x['title'], pages)
+    articles = sorted(list(articles), reverse=True, key=lambda x: x.meta['date'])
+    return render_template('index.html', pages=articles)
 
 @app.route('/resume.html')
 def resume():
@@ -44,7 +46,6 @@ def page(path):
 
 @freezer.register_generator
 def pagelist():
-    print('pages:', pages)
     for page in pages:
         yield url_for('page', path=page.path)
 
@@ -60,6 +61,7 @@ def build_site():
     # Github pages CSS fix
     # adds project name to local path for bootstrap-flask
     for pagename in os.listdir(FREEZER_DESTINATION):
+        print(f"Building {pagename}")
         if pagename.endswith('.html'):
             with open(os.path.join(FREEZER_DESTINATION, pagename)) as f:
                 contents = f.read().replace('/bootstrap/static/', 'alex-service-ml/bootstrap/static/')
