@@ -27,13 +27,13 @@ the domains of reinforcement learning and natural language. I am most comfortabl
 ## EXPERIENCE
 
 ##### Mile Two
-<font size="1">SOFTWARE ENGINEER (MACHINE LEARNING), 2018/03 - PRESENT</font>
+<font size="1">SOFTWARE ENGINEER (MACHINE LEARNING RESEARCH), 2018/03 - PRESENT</font>
 
 * Demonstrated feasibility of metric and optimization **meta-learning** on customer's imagery dataset for one-shot and 
 few-shot scenarios  
 * Led a team who placed 2nd and 3rd overall for Wright Brothers Institute's Swarm and Search AI (SSAI) challenge, 
 as well as received an Innovation Award for our team's vision, **incorporating Deep Reinforcement Learning** (DDPG) 
-into our submission  
+into our submission by creating an OpenAI Gym API for the provided simulation software
 * Incorporated **object detection** into a customer's framework. Particularly, You Only Look Twice (YOLT, a YOLO variant). 
 Included building streaming interfaces to feed video to the model, slicing imagery, performing non-max suppression. 
 Achieved roughly 11 FPS on 1080p imagery using a consumer-grade GPU. Supported distributing work to multiple local GPUs. 
