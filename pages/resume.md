@@ -2,6 +2,7 @@ title: ""
 date: 2021-03-18
 category: resume
 
+<font size="1" class="dont-print">Page is printer friendly (hopefully!)</font>
 
 <font size="6" color="#00ab44">Alex Service</font>  | **@predictwith.us**
 ------------- | -------------
