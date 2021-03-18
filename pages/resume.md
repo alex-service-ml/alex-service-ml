@@ -1,11 +1,11 @@
 title: ""
-date: 2020-12-07
+date: 2021-03-18
 category: resume
 
 
 <font size="6" color="#00ab44">Alex Service</font>  | **@predictwith.us**
 ------------- | -------------
-Machine Learning Engineer | Dayton, OH  
+Machine Learning Research Engineer | Dayton, OH  
 
 ---
 ## SUMMARY
@@ -63,6 +63,8 @@ scraping and curating 27000 SBIR topics
 
 * Earned a 3.60 GPA and was present on the Dean's List Fall 2011 to Fall 2014
 * ACM President from Fall 2012 to Spring 2013
+
+<div class="page-break" />
 
 ---
 ## EXPERIENCE (Additional)
