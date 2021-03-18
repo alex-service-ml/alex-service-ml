@@ -1,0 +1,24 @@
+h2, h3, h4 {color: #00ab44}
+strong {
+    font-weight: 800;
+    color: #666666;
+}
+
+
+@media print {
+    header, footer, nav, .dont-print {
+        display: none;
+        background-color: #fff;
+    }   
+    body {
+        display: block;
+        column-width: 37em;
+        column-gap: 3em;
+        
+    }
+ 
+    .page-break {
+        break-before: always;
+    }
+
+}
