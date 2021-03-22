@@ -10,6 +10,10 @@ mixed drinks with 5 or 6 drinks on each page. As I was browsing the book last ni
 
 **How about I try to make every cocktail in the book?**  
 
+*Update March 22, 2021: Having now tried a dozen or so drinks from the book, I am much less zealous in this commitment. 
+I have generally found my tastes align better with recipes shared by the Cocktail Chemist on Youtube*
+
+
 It feels like a ridiculous goal to work toward, but I can't shake it from my head. I've rarely ventured away from 
 Bulleit bourbon and wheat beers, so this will be an opportunity to branch out and travel the world of booze (as 
 long as that booze could be crafted by a London hotel barman in 1930).  

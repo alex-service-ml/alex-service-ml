@@ -1,5 +1,5 @@
 title: ""
-date: 2021-03-18
+date: 2021-03-22
 category: resume
 
 <font size="1" class="dont-print">Page is printer friendly (hopefully!)</font>
@@ -12,14 +12,15 @@ Machine Learning Research Engineer | Dayton, OH
 ## SUMMARY
 
 Bottom-line up front: I am an ML Engineer with a **strong desire to apply state-of-the-art research to complex problems.** 
-My primary domain is in computer vision (segmentation/detection/classification), but I am looking to build expertise in 
-the domains of reinforcement learning and natural language. I am most comfortable with python + pytorch
+Recently, I've been developing an analytics process to identify and quantify valuable questions for both our internal 
+teams and our customers. My primary domain is in computer vision (segmentation/detection/classification), but I am looking 
+to build expertise in the domains of reinforcement learning and natural language. I am most comfortable with python + pytorch
 
 ---
 ## SKILLS
 
 * **Languages**: python, java, c/c++
-* **Tech Stack**: pytorch (+ ignite), conda, docker, git
+* **Tech Stack**: pytorch (+ ignite), conda, Azure ML, docker, git
 * **Development Processes**: Agile, CRISP-DM
 * **Certifications**: Deep Learning Specialization (Coursera), ColumbiaX AI & ML, CCNA, A+
 
@@ -29,6 +30,8 @@ the domains of reinforcement learning and natural language. I am most comfortabl
 ##### Mile Two
 <font size="1">SOFTWARE ENGINEER (MACHINE LEARNING RESEARCH), 2018/03 - PRESENT</font>
 
+* Standardized data analysis & development via a cloud-deployable conda environment to reduce spin-up time among the 
+Machine Learning team (targeting Azure ML) and improve data/model provenance.   
 * Demonstrated feasibility of metric and optimization **meta-learning** on customer's imagery dataset for one-shot and 
 few-shot scenarios  
 * Led a team who placed 2nd and 3rd overall for Wright Brothers Institute's Swarm and Search AI (SSAI) challenge, 
